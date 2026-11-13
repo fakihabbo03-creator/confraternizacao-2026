@@ -42,7 +42,7 @@
 <iframe name="respostaFrame" id="respostaFrame" title="Recebimento da confirmação" class="hidden"></iframe>
 <script>
   // Cole abaixo a URL terminada em /exec obtida ao implantar o Google Apps Script.
-  const APPS_SCRIPT_URL = 'COLE_AQUI_A_URL_DO_APPS_SCRIPT';
+  const APPS_SCRIPT_URL = 'https://script.google.com/macros/s/AKfycbxlf_3rhNYQdAgypejwjzrMcI2DSDU3XjcRekiAESZ2pe-bKYmpolkwebAcFJ527aHV5A/exec';
   const form=document.getElementById('rsvpForm'),status=document.getElementById('status'),btn=document.getElementById('submitBtn');
   let pendingId=null;
   function setStatus(msg,type=''){status.textContent=msg;status.className='notice '+type}
